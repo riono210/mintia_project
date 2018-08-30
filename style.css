@@ -2,32 +2,47 @@ body{
     margin: 0;
 }
 .top-visual{
-    background-image:url("./images/top-visual.jpg");
+    background-image:url("./images/sp.jpg");
     height: 100vh;
+    width: 100vw;
     color:#FFF;
-    position: relative;
+    position: fixed;
     top: 0;
     left: 0;
     background-size:cover;
     background-repeat: no-repeat;
+    z-index: -1;
 }
 .top-visual h1{
     position: absolute;
     top: 50%;
     left: 50%;
-    font-family: serif;
+    font-family: Georgia,游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN",HGS明朝E,メイリオ,Meiryo,serif;
     transform: translate(-50%,-50%);
 }
 .contents{
     position:relative;
-    background-color: #FCFCFF:
+    background-color: #FCFCFF;
+    margin-top: 100vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    z-index:1;
 }
 .content{
-    background-color: #FCFCFF;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
 }
 .content h2{
+    font-size: 3vw;
     text-align:center;
-    font-family: serif; 
+    font-family: Georgia,游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN",HGS明朝E,メイリオ,Meiryo,serif; 
+    margin: 0;
+    padding: 2%;
+}
+.content h2:first-letter{
+    color: #3261AB;
 }
 #delicious .img-wrap{
     display: flex;
@@ -43,4 +58,6 @@ body{
     width: 50%;
 }
 #delicious .img-wrap .img img{
+    width: 45vw;
+    filter: brightness(120%);
 }
