@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+}
+.top-visual{
+    background-image:url("./top-visual.jpg");
+    height: 100vh;
+    color:#FFF;
+    position: relative;
+    top: 0;
+    left: 0;
+    transform:(-50%,-50%)
+}
+.top-visual h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
