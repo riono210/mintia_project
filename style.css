@@ -2,7 +2,7 @@ body{
     margin: 0;
 }
 .top-visual{
-    background-image:url("./top-visual.jpg");
+    background-image:url("./images/top-visual.jpg");
     height: 100vh;
     color:#FFF;
     position: relative;
