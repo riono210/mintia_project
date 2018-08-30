@@ -8,11 +8,22 @@ body{
     position: relative;
     top: 0;
     left: 0;
-    transform:(-50%,-50%)
 }
 .top-visual h1{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%)
+    font-family: serif;
+    transform: translate(-50%,-50%);
+}
+.contents{
+    position:relative;
+    background-color: #FCFCFF:
+}
+.content{
+    background-color: #FCFCFF;
+}
+.content h2{
+    text-align:center;
+    font-family: serif; 
 }
