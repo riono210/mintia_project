@@ -17,7 +17,7 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    font-family: serif;
+    font-family: Georgia,游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN",HGS明朝E,メイリオ,Meiryo,serif;
     transform: translate(-50%,-50%);
 }
 .contents{
@@ -29,13 +29,20 @@ body{
     z-index:1;
 }
 .content{
-    padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
 }
 .content h2{
+    font-size: 3vw;
     text-align:center;
-    font-family: serif; 
+    font-family: Georgia,游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN",HGS明朝E,メイリオ,Meiryo,serif; 
     margin: 0;
-    padding: 3%;
+    padding: 2%;
+}
+.content h2:first-letter{
+    color: #3261AB;
 }
 #delicious .img-wrap{
     display: flex;
