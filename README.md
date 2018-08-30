@@ -1,0 +1,2 @@
+# mintia_project
+ゴリラハラスメント
